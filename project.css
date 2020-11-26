@@ -1,0 +1,82 @@
+.header{
+  padding: 20px;
+  background: #7f8181;
+  color: rgb(19, 17, 17);
+  text-align: left;
+    font-size: 30px;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.topnav li:last-child{
+  float: right;
+  font-size: 25px;
+}
+  /* Make the image responsive */
+ img {
+    width: 100%;
+    height: 100%;
+    max-width:100%;
+    background-size: auto;
+  }
+  
+  /* Style the button and place it in the middle of the container/image */
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    font-size: 20px;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover, .dropdown:hover .dropbtn {
+    background-color: rgb(145, 141, 141);
+  }
+  
+  li.dropdown {
+    display: inline-block;
+  }
+  .container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+
+ 
+  .text-block {
+    position: absolute;
+    right: 20px;
+    background-color: black;
+    background-attachment: fixed;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+    position: absolute;
+    top: 30%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    font-size: 30px;
+  }
+
+  .container {
+    position: relative;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(94, 41, 23);
+    color: white;
+  }
